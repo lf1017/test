@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Welcome to INFM212 family site</title>
+
+		<link type = "text/css"  rel = "stylesheet" href ="main.css"/>
+
+	</head>
+	<body>
+		<div id ="container">
+			<div id ="topbar">
+				<h1>Welcome to INFM212 family site</h1>
+			</div>
+			<div id ="nav">
+				<ul>
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "rod.html">Rod</a></li>
+					<li><a href = "damon.html">Damon</a></li>
+					<li><a href = "pre-registration.html">Course to Take</a></li>
+				</ul>
+			</div>
+			<div id ="content">
+				<h3> Pre-registration form </h3>
+
+				<p>Please enter your information.</p>
+				<form action="confirmation.html" method ="POST">
+					First name: <input type = "text" name = "f_name" value =""> <br />
+					Last name: <input type = "text" name = "l_name" value =""> <br />
+					Gender <input type ="radio" name = "gender"/>Female <input type ="radio" name = "gender"/>Male <br /> <input type ="radio" name = "gender"/>Male <br />
+					Email:<input type = "text" name = "email" value =""> <br />
+					Address: <input type = "text" name = "address" value =""> <br />
+					City:<input type = "text" name = "city" value =""> Zipcode:<input type = "text" name = "zipcode" value =""> <br />
+					State: <select name = "state">
+								<option value ="Alabama">AL</option>
+								<option value ="Georgia">GA</option>
+								<option value ="New York">NY</option>
+								<option value ="Washington DC">DC</option>
+
+						   </select> <br /> <br />
+					When did you join the informatics program: <select name = "year_joined">
+													<option value ="2015">2015</option>
+													<option value ="2016">2016</option>
+													<option value ="2017">2017</option>
+													<option value ="2018">2018</option>
+
+						   </select> <br /> <br />
+					What courses do you like to take in spring 2019:
+					<input type = "checkbox" name = "course_selected" /> INFM110 <br />
+					<input type = "checkbox" name = "course_selected" /> INFM204 <br />
+					<input type = "checkbox" name = "course_selected" /> INFM210 <br />
+					<input type = "checkbox" name = "course_selected" /> INFM310 <br />
+					<input type = "checkbox" name = "course_selected" /> INFM212 <br />
+
+
+				<p>Please enter the courses that you are planing to take in spring 2019.</p>
+
+<br /><br />
+
+					<button type "submit" value ="Submit" >Submit</button>
+				</form>
+
+				<p >Thank you for participate the pre-registration. It will help us to schedule the spring better fits to your needs</p>
+
+			</div>
+			<div id ="footer"> <hr /> &copy; Copyright All Reserved 2018 - 2019 by INFM212 class fall 2018</div>
+		</div>
+	</body>
+</html>
